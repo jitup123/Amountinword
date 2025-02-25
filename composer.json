@@ -1,5 +1,5 @@
 {
-    "name": "jitup123/Amountinwords",
+    "name": "jitup123/amountinwords",
     "description": "A package to convert amount into words",
     "version": "1.1.2",
     "keywords": ["laravel", "amount", "words", "converter", "amount in words", "amount to words", "amount converter","ERP","CRM"], 
@@ -12,7 +12,7 @@
     ],
     "autoload": {
       "psr-4": {
-        "jitup123\\Amountinwords\\": "src/"
+        "jitup123\\amountinwords\\": "src/"
       }
     },
     "require": {
@@ -22,7 +22,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "jitup123\\Amountinwords\\AmountinwordsServiceProvider"
+          "jitup123\\amountinwords\\AmountinwordsServiceProvider"
         ]
       }
     },
