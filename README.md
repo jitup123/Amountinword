@@ -83,8 +83,7 @@ License
 This package is licensed under the MIT License.
 
 Author
-Bizmitra ERP
-Mahendrasinh Rana & Vishal
-Email: mkr@bizmitra.io
+jitup123
+Email: patel.jitendra.jitu@ggmail.com
 
 
