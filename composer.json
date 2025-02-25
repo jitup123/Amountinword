@@ -1,0 +1,32 @@
+{
+    "name": "jitup1/amountinwords",
+    "description": "A package to convert amount into words",
+    "version": "1.1.2",
+    "keywords": ["laravel", "amount", "words", "converter", "amount in words", "amount to words", "amount converter","ERP","CRM","Bizmitra ERP"], 
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "jitup1",
+        "email": "patel.jitendra.jitu@gmail.com"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "jitup1\\Amountinwords\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^7.4|^8.0",
+      "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "jitup1\\Amountinwords\\AmountinwordsServiceProvider"
+        ]
+      }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
