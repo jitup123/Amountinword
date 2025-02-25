@@ -1,6 +1,6 @@
 <?php
 
-namespace jitup123\Amountinwords;
+namespace Bizmitra\Amountinwords;
 
 class PrintAmountInWords
 {

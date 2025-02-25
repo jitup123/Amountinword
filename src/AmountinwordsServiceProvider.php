@@ -1,6 +1,6 @@
 <?php
 
-namespace jitup123\Amountinwords;
+namespace Bizmitra\Amountinwords;
 
 use Illuminate\Support\ServiceProvider;
 
