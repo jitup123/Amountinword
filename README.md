@@ -1,8 +1,5 @@
 #  Amount in Words
-
-A simple Laravel package to convert numeric amounts into their equivalent words.
-
-## Installation
+# Installation
 
 You can install the package via Composer. Run the following command in your Laravel project's root directory:
 
@@ -10,9 +7,6 @@ You can install the package via Composer. Run the following command in your Lara
 composer require jitup1/amountinwords
 
 Usage
-Step 1: Service Provider Registration
-Laravel should automatically detect the service provider. However, if you want to manually register it, add the following line to the providers array in your config/app.php file:
-
 'providers' => [
     // Other Service Providers
 
@@ -20,16 +14,6 @@ Laravel should automatically detect the service provider. However, if you want t
 ],
 
 
-Step 2: Using the Package
-You can use the PrintAmountInWords class in your controllers or anywhere in your Laravel application. Here’s an example:
-
-Example Controller
-Create a new controller using the following command:
-
-php artisan make:controller AmountController
-
-
-Then, use the following code in your AmountController.php:
 
 <?php
 
@@ -73,14 +57,6 @@ Usage
         'amount' => $amount,
         'in_words' => $words,
 
-Step 4: Accessing the Functionality
-Now, when you access the /amount-in-words route in your browser or through an API client like Postman, you should get a JSON response with the amount in words:
-
-Step 5: Testing the Functionality
-Make sure to test your functionality by accessing the route you created and verifying that it returns the correct output.
-
-License
-This package is licensed under the MIT License.
 
 Author
 jitup123
