@@ -7,7 +7,7 @@ A simple Laravel package to convert numeric amounts into their equivalent words.
 You can install the package via Composer. Run the following command in your Laravel project's root directory:
 
 ```bash
-composer require bizmitra/amountinwords
+composer require jitup123/amountinwords
 
 Usage
 Step 1: Service Provider Registration
