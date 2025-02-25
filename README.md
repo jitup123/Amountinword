@@ -16,7 +16,7 @@ Laravel should automatically detect the service provider. However, if you want t
 'providers' => [
     // Other Service Providers
 
-    Bizmitra\Amountinwords\AmountinwordsServiceProvider::class,
+    jitup123\amountinwords\AmountinwordsServiceProvider::class,
 ],
 
 
@@ -35,7 +35,7 @@ Then, use the following code in your AmountController.php:
 
 namespace App\Http\Controllers;
 
-use Bizmitra\Amountinwords\PrintAmountInWords;
+use jitup1\amountinwords\PrintAmountInWords;
 
 class AmountController extends Controller
 {
@@ -65,7 +65,7 @@ use App\Http\Controllers\AmountController;
 Route::get('/amount-in-words', [AmountController::class, 'index']);
 
 Usage
-   $amount = 4500.00; // Example amount
+   $amount = 4000.00; // Example amount
     // Call the correct method to convert amount to words with currency names
     $words = $this->amountInWords->amountToWords($amount, 'USD', 'cents');
 
