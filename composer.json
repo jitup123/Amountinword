@@ -2,7 +2,7 @@
     "name": "jitup1/amountinwords",
     "description": "A package to convert amount into words",
     "version": "1.1.2",
-    "keywords": ["laravel", "amount", "words", "converter", "amount in words", "amount to words", "amount converter","ERP","CRM","Bizmitra ERP"], 
+    "keywords": ["laravel", "amount", "words", "converter", "amount in words", "amount to words", "amount converter","ERP","CRM"], 
     "license": "MIT",
     "authors": [
       {
