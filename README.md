@@ -84,6 +84,6 @@ This package is licensed under the MIT License.
 
 Author
 jitup123
-Email: patel.jitendra.jitu@ggmail.com
+Email: patel.jitendra.jitu@gmail.com
 
 
