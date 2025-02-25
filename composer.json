@@ -22,7 +22,7 @@
     "extra": {
       "laravel": {
         "providers": [
-          "jitup1\\Amountinwords\\AmountinwordsServiceProvider"
+          "jitup123\\Amountinwords\\AmountinwordsServiceProvider"
         ]
       }
     },
