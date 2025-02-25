@@ -1,6 +1,6 @@
 <?php
 
-namespace jitup1\Amountinwords;
+namespace jitup123\Amountinwords;
 
 class PrintAmountInWords
 {
